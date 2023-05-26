@@ -34,7 +34,7 @@ sudo apt-get install libatlas-base-dev gfortran
 
 sudo pip3 install numpy
 ```
-
+test:
 ```
 python detect1.py
 ```
