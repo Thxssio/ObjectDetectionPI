@@ -1,4 +1,6 @@
-<h1 align="center">ObjectDetectionPI<img src="assets/Raspberry_Pi_Logo.svg"></img></h1>
+<h1 align="center">ObjectDetectionPI></img></h1>
+
+![alt text](assets/)
 
 
 
