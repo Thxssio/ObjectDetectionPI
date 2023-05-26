@@ -38,3 +38,9 @@ test:
 ```
 python detect1.py
 ```
+```
+python detect2.py
+```
+```
+python detect3.py
+```
