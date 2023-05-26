@@ -20,5 +20,21 @@
 - [x] Numpy
 
 ```
+sudo apt-get install build-essential cmake pkg-config
+
+sudo apt-get install libjpeg-dev libtiff5-dev 
+
+sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev
+
+sudo apt-get install libxvidcore-dev libx264-dev
+
+sudo apt-get install libgtk2.0-dev libgtk-3-dev
+
+sudo apt-get install libatlas-base-dev gfortran
+
+sudo pip3 install numpy
+```
+
+```
 python detect1.py
 ```
