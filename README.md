@@ -16,6 +16,10 @@
 
 **Requirements:**
 
+- [x] OpenCv
+- [x] Numpy
+
+<!--
 ```
 sudo apt-get install build-essential cmake pkg-config
 ```
@@ -78,5 +82,5 @@ cmake -D CMAKE_BUILD_TYPE=RELEASE \
 ```
 make -j $(nproc)
 ```
-
+-->
 
