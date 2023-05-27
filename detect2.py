@@ -28,11 +28,11 @@ def getObjects(img, thres, nms, draw=True, objects=[]):
             if className in objects:
                 objectInfo.append([box,className])
                 if (draw):
-                    cv2.rectangle(img,box,color=(0,255,0),thickness=2)
+                    cv2.rectangle(img,box,color=(255,0,0),thickness=2)
                     cv2.putText(img,classNames[classId-1].upper(),(box[0]+10,box[1]+30),
-                    cv2.FONT_HERSHEY_COMPLEX,1,(0,255,0),2)
+                    cv2.FONT_HERSHEY_COMPLEX,1,(255,255,255),2)
                     cv2.putText(img,str(round(confidence*100,2)),(box[0]+200,box[1]+30),
-                    cv2.FONT_HERSHEY_COMPLEX,1,(0,255,0),2)
+                    cv2.FONT_HERSHEY_COMPLEX,1,(255,255,255),2)
 
     return img,objectInfo
 
@@ -48,7 +48,7 @@ if __name__ == "__main__":
     while True:
         success, img = cap.read()
         rot =  cv2.rotate(img, cv2.ROTATE_90_CLOCKWISE)
-        result, objectInfo = getObjects(rot,0.45,0.2, objects=['cup'])
+        result, objectInfo = getObjects(rot,0.45,0.2, objects=['person', 'cell phone', 'cup'])
         #print(objectInfo)
         cv2.imshow("Output",rot)
         cv2.waitKey(1)
