@@ -6,7 +6,7 @@
 
 ***Detect Object using raspberry pi***
 
-- [X] Cocodataset
+- [X] Cocodataset - Common Object Context
 - [X] Raspberry PI
 - [X] Opencv
 - [X] Camera CSI
