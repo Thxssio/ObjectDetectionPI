@@ -34,13 +34,6 @@ sudo apt-get install libatlas-base-dev gfortran
 
 sudo pip3 install numpy
 ```
-test:
-```
-python detect1.py
-```
-```
-python detect2.py
-```
 
 Check Cam:
 
@@ -74,5 +67,10 @@ sudo apt-get upgrade
  ```
  
  Detect object
- 
+
+```
+python detect1.py
+```
+```
+python detect2.py
 ```
