@@ -42,3 +42,37 @@ python detect1.py
 python detect2.py
 ```
 
+Check Cam:
+
+Install:
+
+```
+sudo apt install v4l-utils -y
+```
+* `v4l2-ctl --list-devices`
+    - [x] CSI CAM: `/dev/video0`
+
+OpenCv Install:
+
+```
+sudo apt-get update
+sudo apt install libopencv-dev python3-opencv
+sudo nano /boot/firmware/config.txt
+```
+add last line: `start_x=1`
+
+
+
+```
+sudo apt-get update
+sudo apt-get upgrade
+```
+ Open Path python: 
+ * Execute test csi cam
+ ```
+ python opencv_camera.py
+ ```
+ 
+ Detect object
+ 
+```
