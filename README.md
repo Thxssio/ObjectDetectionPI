@@ -17,9 +17,6 @@
 
 **Requirements:**
 
-- [x] OpenCv
-- [x] Numpy
-
 ```
 sudo apt install raspi-config
 ```
