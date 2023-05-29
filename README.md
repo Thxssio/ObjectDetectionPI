@@ -88,3 +88,25 @@ python detect1.py
 ```
 python detect2.py
 ```
+##
+
+Face Detect
+
+```
+pip install imutils
+```
+
+```
+sudo nano /etc/dphys-swapfile
+```
+
+Update value `CONF_SWAPSIZE = 2048`
+
+New value:
+```
+CONF_SWAPSIZE = 100
+```
+Restart 
+```
+sudo systemctl restart dphys-swapfile
+```
