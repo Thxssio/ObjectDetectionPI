@@ -20,6 +20,9 @@
 - [x] OpenCv
 - [x] Numpy
 
+```
+sudo apt install raspi-config
+```
 Python name default:
 
 ```
