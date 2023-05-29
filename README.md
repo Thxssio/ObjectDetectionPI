@@ -19,6 +19,14 @@
 - [x] OpenCv
 - [x] Numpy
 
+Python name default:
+
+```
+sudo ln -sf /usr/bin/python3 /usr/bin/python
+```
+```
+sudo apt install python3-pip
+```
 ```
 sudo apt-get install build-essential cmake pkg-config -y
 
