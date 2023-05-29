@@ -43,6 +43,10 @@ sudo apt-get install libatlas-base-dev gfortran -y
 sudo pip install numpy
 ```
 
+```
+sudo apt update && sudo apt upgrade
+```
+
 Check Cam:
 
 Install:
