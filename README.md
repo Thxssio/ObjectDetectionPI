@@ -10,6 +10,7 @@
 - [X] Raspberry PI
 - [X] Opencv
 - [X] Camera CSI
+- [X] OS Ubuntu Server 22.04 LTS
 
 
 ##
