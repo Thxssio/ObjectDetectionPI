@@ -20,10 +20,16 @@
 ```
 sudo apt install raspi-config
 ```
-⚠️ Enable Raspcam!!
+⚠️ Enable CSI-CAM interface!!
+
+```
+sudo raspi-config
+```
+ > Interface
+ > Enable Legacy Cam
 
 
-Python name default:
+Python default name:
 
 ```
 sudo ln -sf /usr/bin/python3 /usr/bin/python
