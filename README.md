@@ -40,7 +40,7 @@ sudo apt-get install libgtk2.0-dev libgtk-3-dev -y
 
 sudo apt-get install libatlas-base-dev gfortran -y
 
-sudo pip3 install numpy
+sudo pip install numpy
 ```
 
 Check Cam:
