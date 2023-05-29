@@ -23,7 +23,7 @@ sudo apt install raspi-config
 ⚠️ Enable Raspcam!!
 
 
-`Python name default:`
+Python name default:
 
 ```
 sudo ln -sf /usr/bin/python3 /usr/bin/python
@@ -39,22 +39,22 @@ sudo apt-get install build-essential cmake pkg-config -y && sudo apt-get install
 sudo apt update && sudo apt upgrade
 ```
 
-`Check Cam:`
+Check Cam:
 
-`Install:`
+Install:
 
 ```
 sudo apt install v4l-utils -y
 ```
-`Check:`
+Check:
 ```
 v4l2-ctl --list-devices
 ```
-`Return:`
+Return:
 * `v4l2-ctl --list-devices`
     - [x] CSI CAM: `/dev/video0`
 
-`OpenCv Install:`
+OpenCv Install:
 
 ```
 sudo apt-get update
