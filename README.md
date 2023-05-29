@@ -54,6 +54,11 @@ Install:
 ```
 sudo apt install v4l-utils -y
 ```
+Check:
+```
+v4l2-ctl --list-devices
+```
+Return:
 * `v4l2-ctl --list-devices`
     - [x] CSI CAM: `/dev/video0`
 
