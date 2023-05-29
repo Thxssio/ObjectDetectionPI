@@ -20,7 +20,7 @@
 ```
 sudo apt install raspi-config
 ```
-Python name default:
+`Python name default:`
 
 ```
 sudo ln -sf /usr/bin/python3 /usr/bin/python
