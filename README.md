@@ -25,8 +25,8 @@ sudo apt install raspi-config
 ```
 sudo raspi-config
 ```
- * Interface
- * Enable Legacy Cam
+ * >Interface
+ * >Enable Legacy Cam
 
 
 Python default name:
