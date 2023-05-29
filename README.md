@@ -20,6 +20,9 @@
 ```
 sudo apt install raspi-config
 ```
+⚠️ Enable Raspcam!!
+
+
 `Python name default:`
 
 ```
