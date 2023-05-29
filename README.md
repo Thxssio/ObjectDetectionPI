@@ -28,19 +28,7 @@ sudo ln -sf /usr/bin/python3 /usr/bin/python
 sudo apt install python3-pip -y
 ```
 ```
-sudo apt-get install build-essential cmake pkg-config -y
-
-sudo apt-get install libjpeg-dev libtiff5-dev -y
-
-sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev -y
- 
-sudo apt-get install libxvidcore-dev libx264-dev -y
-
-sudo apt-get install libgtk2.0-dev libgtk-3-dev -y
-
-sudo apt-get install libatlas-base-dev gfortran -y
-
-sudo pip install numpy
+sudo apt-get install build-essential cmake pkg-config -y && sudo apt-get install libjpeg-dev libtiff5-dev -y && sudo apt-get install libavcodec-dev libavformat-dev libswscale-dev libv4l-dev -y && sudo apt-get install libxvidcore-dev libx264-dev -y && sudo apt-get install libgtk2.0-dev libgtk-3-dev -y && sudo apt-get install libatlas-base-dev gfortran -y && sudo pip install numpy
 ```
 
 ```
