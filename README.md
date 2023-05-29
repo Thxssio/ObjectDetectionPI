@@ -93,6 +93,7 @@ python detect2.py
 Face Detect
 
 ```
+pip install face-recognition --no-cache-dir
 pip install imutils
 ```
 
