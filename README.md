@@ -92,6 +92,7 @@ python detect2.py
 
 Face Detect
 
+⚠️ Command will take over 40 mins to install
 ```
 pip install face-recognition 
 pip install imutils
